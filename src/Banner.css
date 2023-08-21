@@ -1,0 +1,141 @@
+body{
+	background:#444;
+	font-family: 'Raleway',sans-serif;
+
+}
+
+.carousel {
+	position: relative;
+	bottom: 130px;
+}
+.col-md-12{
+	padding:0px ;
+}
+#nav .navbar
+.slideshow figcaption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+  }
+
+   .ban-img {
+	height: 650px !important;
+	width: 100%;
+	opacity: 0.8;
+  } 
+  
+
+.banner{
+	height: 90vh;
+	width: 100%;
+}
+
+.d-block {
+	height: 500px;
+}
+
+.banner .navbar{
+	z-index: 1;
+	padding: 0px;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	padding-right: 10%; 
+	margin-left: -10%;
+}
+.banner .nav li a{
+	color:#d2d2d2;
+	border-radius: 50%;
+	font-size: 1.1em;
+}
+.banner .nav li a:hover {
+    background: #8af0f77b;
+    border-radius: 50%;
+    color: #333;
+  }
+.banner .info{
+	margin-top:10%;
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	border-radius: 40%;
+
+	background-image: url('./img/nametagcrop.jpg');
+	background-clip: text;
+	-webkit-background-clip: text; 
+	color: transparent;
+
+	letter-spacing: 2px;
+	
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: rgb(184, 192, 199);
+	letter-spacing: 2px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: rgba(0, 0, 0, 0.341);
+	border-radius: 15px;
+}
+.banner .info a{
+	margin-left:25%;
+	margin-right:30%;
+	width: 50%;
+	color: rgb(73, 49, 125);
+	background:url('./img/name\ tag.jpg');
+	background-size: contain;
+	background-position: center;
+	padding:10px 20px;
+	font-size: 2em;
+	font-weight: 600; 
+}
+.banner .info a:hover{
+	background:url('./img/overlay.png'),url('./img/name\ tag.jpg');
+ 	background-size: contain;
+	background-position: center;
+	color: rgb(204, 204, 204);
+}
+
+.navbar-toggler {
+	display: none; 
+	margin-right: 20%;
+  }
+  .nav2{
+	display: block;
+	margin-right:10%; 
+  }
+  
+  @media (min-width: 992px) {
+	.navbar-toggler {
+	  display: none; 
+	}
+	.nav2{
+	  display: block;
+	}
+  }
+  @media (max-width: 991px) {
+	.navbar-toggler {
+	  display: block;
+	  margin-right: 20%;
+	}
+	.nav2{
+	  display: none;
+	}
+  }
+  
+  .navbar-collapse{
+	margin-left: 20%;
+  }
+  

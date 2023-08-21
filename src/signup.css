@@ -1,0 +1,140 @@
+.contact{
+    color: aliceblue;
+    padding: 30px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    
+  }
+
+  .loginBack{
+    background: url("./img/loginback2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .loginForm{
+    height: auto;
+    width: 100% !important;
+    border-radius: 2%;
+    padding: 5%;
+    border: 1px solid #b4906d;
+
+    background-color: #000000;
+    margin-bottom: 0px;
+  } 
+  
+  .contact-d {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .contact-d input  {
+    border-color: #b4906d;
+  
+  }
+  
+  .contact-d textarea {
+    border-color: #b4906d;
+  
+  }
+  
+  .contact h5 {
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  
+  input, textarea {
+    color: #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+  
+  }
+  
+  select {
+    color: #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #b4906d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+  
+  }
+  
+  
+  
+  button[type=signup] {
+    background-color: #b4906d  ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  button[type=signup]:hover {
+    background-color: #f7c08a;
+  }
+  
+  .txtA {
+    width: 150%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+  
+  .btn{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 20px;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+  }
+  .pSignup {
+    color: red;
+  }
+  
+  
+  
+  .col-lg-6 p {
+    color: aliceblue;
+    font-size: 16px;
+  }
+  
+  
+  .title-c {
+  color: #b4906d !important;
+  }
+  
